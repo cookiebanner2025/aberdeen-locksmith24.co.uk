@@ -219,36 +219,37 @@ geoConfig: {
         },
         
         reject: {
-            background: '#f8f9fa',
-            color: '#333333',
-            border: '1px solid #e0e0e0',
-            hover: {
-                background: '#f8f9fa',
-                color: '#333333',
-                transform: 'translateY(-1px)'
-            }
+        background: '#f8f9fa !important',
+        color: '#333333 !important',
+        border: '1px solid #e0e0e0 !important',
+        hover: {
+            background: '#f8f9fa !important',
+            color: '#333333 !important',
+            transform: 'translateY(-1px) !important'
+        }
         },
         
         adjust: {
-            background: '#f8f9fa',
-            color: '#333333',
-            border: '1px solid #e0e0e0',
-            hover: {
-                background: '#f0f2f5',
-                color: '#333333',
-                transform: 'translateY(-1px)'
-            }
+        background: '#f8f9fa !important',
+        color: '#333333 !important',
+        border: '1px solid #e0e0e0 !important',
+        hover: {
+            background: '#f0f2f5 !important',
+            color: '#333333 !important',
+            transform: 'translateY(-1px) !important'
+        }
         },
         
         save: {
-            background: '#f8f9fa',
-            color: '#333333',
-            border: '1px solid #e0e0e0',
-            hover: {
-                background: '#f8f9fa',
-                color: '#333333',
-                transform: 'translateY(-1px)'
-            }
+        background: '#f8f9fa !important',
+        color: '#333333 !important',
+        border: '1px solid #e0e0e0 !important',
+        hover: {
+            background: '#f8f9fa !important',
+            color: '#333333 !important',
+            transform: 'translateY(-1px) !important'
+        }
+
         }
     },
     
