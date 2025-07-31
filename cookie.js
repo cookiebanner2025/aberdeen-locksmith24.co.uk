@@ -208,11 +208,11 @@ geoConfig: {
         transition: 'all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1)',
         
        accept: {
-    background: '#2b6ca2 !important',
+    background: '#1177d0 !important',
     color: '#ffffff !important',
     border: '1px solid #1177d0 !important',
     hover: {
-        background: '#2b6ca2 !important',
+        background: '#1177d0 !important',
         color: '#ffffff !important',
         transform: 'translateY(-1px) !important'
     }
