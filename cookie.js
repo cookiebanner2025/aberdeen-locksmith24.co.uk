@@ -173,7 +173,7 @@ geoConfig: {
     
     // Banner styling
     bannerStyle: {
-        background: '#ffffff',
+        background: '#FFF8DC',
         borderRadius: '12px',
         boxShadow: '0 8px 32px rgba(0, 0, 0, 0.12)',
         width: '465px',
