@@ -199,58 +199,58 @@ geoConfig: {
         }
     },
     
-// Button styling
-buttonStyle: {
+    // Button styling
+    buttonStyle: {
     borderRadius: '8px !important',
     padding: '12px 20px !important',
     fontWeight: '600 !important',
     fontSize: '14px !important',
     transition: 'all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1) !important',
-    
-    accept: {
+        
+       accept: {
+    background: '#1177d0 !important',
+    color: '#ffffff !important',
+    border: '1px solid #1177d0 !important',
+    hover: {
         background: '#1177d0 !important',
         color: '#ffffff !important',
-        border: '1px solid #1177d0 !important',
-        hover: {
-            background: '#1177d0 !important',
-            color: '#ffffff !important',
-            transform: 'translateY(-1px) !important'
-        }
-    },
-    
-    reject: {
-        background: '#f8f9fa !important',
-        color: '#333333 !important',
-        border: '1px solid #e0e0e0 !important',
-        hover: {
-            background: '#f8f9fa !important',
-            color: '#333333 !important',
-            transform: 'translateY(-1px) !important'
-        }
-    },
-    
-    adjust: {
-        background: '#f8f9fa !important',
-        color: '#333333 !important',
-        border: '1px solid #e0e0e0 !important',
-        hover: {
-            background: '#f0f2f5 !important',
-            color: '#333333 !important',
-            transform: 'translateY(-1px) !important'
-        }
-    },
-    
-    save: {
-        background: '#f8f9fa !important',
-        color: '#333333 !important',
-        border: '1px solid #e0e0e0 !important',
-        hover: {
-            background: '#f8f9fa !important',
-            color: '#333333 !important',
-            transform: 'translateY(-1px) !important'
-        }
+        transform: 'translateY(-1px) !important'
     }
-}
+        },
+        
+        reject: {
+            background: '#f8f9fa',
+            color: '#333333',
+            border: '1px solid #e0e0e0',
+            hover: {
+                background: '#f8f9fa',
+                color: '#333333',
+                transform: 'translateY(-1px)'
+            }
+        },
+        
+        adjust: {
+            background: '#f8f9fa',
+            color: '#333333',
+            border: '1px solid #e0e0e0',
+            hover: {
+                background: '#f0f2f5',
+                color: '#333333',
+                transform: 'translateY(-1px)'
+            }
+        },
+        
+        save: {
+            background: '#f8f9fa',
+            color: '#333333',
+            border: '1px solid #e0e0e0',
+            hover: {
+                background: '#f8f9fa',
+                color: '#333333',
+                transform: 'translateY(-1px)'
+            }
+        }
+    },
     
     // Floating button styling
     floatingButtonStyle: {
