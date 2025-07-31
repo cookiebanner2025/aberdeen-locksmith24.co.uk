@@ -138,7 +138,7 @@ const config = {
     languageConfig: {
         defaultLanguage: 'en',
         availableLanguages: [], // Only en and fr as requested
-        showLanguageSelector: true,
+        showLanguageSelector: false,
         autoDetectLanguage: true
     },
     
@@ -2472,7 +2472,7 @@ function injectConsentHTML(detectedCookies, language = 'en') {
                 <a href="${config.privacyPolicyUrl}" class="main-privacy-policy-link">${lang.privacy}</a>
             </div>
             <div class="all-cookie-consent-buttons">
-                <button id="acceptAllBtn" class="cookie-btn main-accept-button">${lang.accept}</button>
+                <button id="acceptAllBtn" class="cookie-btn unique-accept-button">${lang.accept}</button>
                 <button id="adjustConsentBtn" class="cookie-btn main-adjust-button">${lang.customize}</button>
                 <button id="rejectAllBtn" class="cookie-btn main-reject-btn">${lang.reject}</button>
                 
@@ -2501,7 +2501,7 @@ function injectConsentHTML(detectedCookies, language = 'en') {
                     <a href="#" class="see-analytics-link">${lang.seeAnalytics}</a>
                 </div>` : ''}
                  <div class="modal-buttons-container">
-                    <button id="acceptAllSettingsBtn" class="cookie-btn main-accept-button">${lang.accept}</button>
+                    <button id="acceptAllSettingsBtn" class="cookie-btn unique-accept-button">${lang.accept}</button>
                     <button id="saveSettingsBtn" class="cookie-btn main-save-btn">${lang.save}</button>
                     <button id="rejectAllSettingsBtn" class="cookie-btn main-reject-btn">${lang.reject}</button>
                 </div>
@@ -2649,14 +2649,14 @@ function injectConsentHTML(detectedCookies, language = 'en') {
         
     }
 
- .main-accept-button {
+ .unique-accept-button {
     background-color: ${config.buttonStyle.accept.background};
     color: ${config.buttonStyle.accept.color};
     border: ${config.buttonStyle.accept.border};
     
 }
 
-.main-accept-button:hover {
+.unique-accept-button:hover {
     background-color: ${config.buttonStyle.accept.hover.background};
     color: ${config.buttonStyle.accept.hover.color};
     transform: ${config.buttonStyle.accept.hover.transform};
